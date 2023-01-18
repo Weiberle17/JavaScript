@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hangman.css">
+  <script src="hangman.js" async></script>
+    <title>Hangman</title>
+</head>
+<body>
+    <div class="game">
+        <h1>Hangman</h1>
+        <div class="drawing">
+            <h3>Übrige Leben:</h3>
+            <h2 id="gallows"></h2>
+        </div>
+        <div class="word">
+            <h3 id="status">Wählen Sie einen Buchstaben aus</h3>
+            <h3 id="word"></h3>
+            <p>Folgende Buchstaben wurden schon getippt:</p>
+            <p class="used"></p>
+        </div>
+        <button type="button" id="restart">Neues Wort</button>
+    </div>
+</body>
+</html>

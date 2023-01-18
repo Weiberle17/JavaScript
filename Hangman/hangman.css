@@ -1,0 +1,50 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 8rem;
+    color: blue;
+    text-align: center;
+}
+
+h2 {
+    font-size: 6rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+h4 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.game {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+}
+
+#word {
+    font-kerning: none;
+    letter-spacing: 5px;
+}
+
+#restart {
+    width: 100%;
+    padding: 10px;
+}
